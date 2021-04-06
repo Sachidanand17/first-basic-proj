@@ -1,0 +1,68 @@
+body{
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+}
+
+.info-sec {
+  width: 395px;
+  height: 600px;
+  position: relative;
+  left: 870px;
+  bottom: 260px;
+font-family: 'Poppins', sans-serif;
+color: white;
+
+}
+
+.heading-sec {
+  width: 500px;
+}
+
+.para-sec {
+  width: 500px;
+}
+
+.btn{
+  border-radius: 25px;
+  background: hsl(300, 69%, 71%);
+  width: 200px;
+  height: 50px;
+  size: 20px;
+}
+
+.btn:hover{
+   box-shadow: 3px 3px 3px black;
+   color: white;
+
+}
+
+.first-img{
+  position: relative;
+  top: 185px;
+  left: 100px;
+}
+
+.sec-img{
+  position: relative;
+  bottom: 150px;
+  right: 620px;
+
+  z-index: +2;
+}
+
+.icon-sec{
+  position: absolute;
+  left: 436px;
+  top: 450px;
+  width: 500px;
+  color: hsl(300, 69%, 71%);
+
+}
+
+.icn{
+  padding: 9px;
+}
+
+.icn:hover{
+  color: white;
+}
